@@ -8,7 +8,7 @@
     "lint": "eslint \"**/*.js\" --fix",
     "build": "npm run lint",
     "start": "npm run serve",
-    "serve": "node index.js",
+    "serve": "node --experimental-json-modules index.js",
     "test": "echo \"Tests are skipped\""
   },
   "repository": {

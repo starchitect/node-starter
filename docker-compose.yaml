@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  node:
+    build: .
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      NPM_CONFIG_LOGLEVEL: ${NPM_CONFIG_LOGLEVEL}
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app
+    command: "npm start"

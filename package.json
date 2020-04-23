@@ -1,0 +1,40 @@
+{
+  "name": "starter",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A starter template for Node",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --fix",
+    "build": "npm run lint",
+    "start": "npm run serve",
+    "serve": "node index.js",
+    "test": "echo \"Tests are skipped\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starchitect/node-starter.git"
+  },
+  "author": "John Doe <john.doe@example.com> (https://example.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/starchitect/node-starter/issues"
+  },
+  "homepage": "https://github.com/starchitect/node-starter#readme",
+  "engines": {
+    "node": ">=14.0.0 <15.0.0"
+  },
+  "dependencies": {
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm test"
+    }
+  }
+}

@@ -16,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/starchitect/node-starter.git"
   },
-  "author": "John Doe <john.doe@example.com> (https://example.com/)",
+  "author": "Example, Inc. <info@example.com> (https://example.com/)",
+  "contributors": [
+    "John Doe <john.doe@example.com> (https://example.com/)"
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/starchitect/node-starter/issues"

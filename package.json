@@ -2,7 +2,7 @@
   "name": "starter",
   "version": "0.1.0",
   "license": "Apache-2.0",
-  "description": "A starter template for Node",
+  "description": "node-starter is a node.js project template",
   "tag": "nodejs, javascript, template",
   "homepage": "https://github.com/starchitect/node-starter#readme",
   "author": "Example, Inc. <info@example.com> (https://example.com/)",

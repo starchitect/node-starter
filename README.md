@@ -13,7 +13,9 @@ node-starter is a node.js project template.
 
 Contributing to the template is easy:
 
-1. After checking out, run `npm install`;
-2. Write some code;
-3. To run all tests, run `npm test`;
-4. Commit changes with a message specified by [Conventional Commits](https://conventionalcommits.org);
+1. Checkout from a repository;
+2. Set up correct version of engine `nvm use`;
+3. Install dependencies, run `npm install`;
+4. Write some code;
+5. To run all tests, run `npm test`;
+6. Commit changes with a message specified by [Conventional Commits](https://conventionalcommits.org);

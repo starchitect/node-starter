@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "description": "A starter template for Node",
+  "tag": "nodejs, javascript, template",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint \"**/*.js\" --fix",

@@ -1,7 +1,7 @@
 # Node.js Starter
 node-starter is a node.js project template.
 
-[![Conventional Commits][conventional-commits-image]][conventional-commits-url]
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## Version Support
 

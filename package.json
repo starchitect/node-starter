@@ -34,11 +34,5 @@
     "start": "npm run serve",
     "serve": "node index.js",
     "test": "echo \"Tests are skipped\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm test",
-      "pre-push": "npm test"
-    }
   }
 }

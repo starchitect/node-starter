@@ -1,6 +1,8 @@
 # Node.js Starter
+
 node-starter is a node.js project template.
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## Version Support
@@ -10,6 +12,7 @@ node-starter is a node.js project template.
 ## Contributing
 
 Contributing to the template is easy:
+
 1. After checking out, run `npm install`;
 2. Write some code;
 3. To run all tests, run `npm test`;

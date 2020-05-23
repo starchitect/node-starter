@@ -28,10 +28,16 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "eslint": "^6.8.0",
-    "husky": "^4.2.5"
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
+    "prettier": "^2.0.5"
   },
   "scripts": {
-    "lint": "eslint \"**/*.js\" --fix",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix",
+    "format": "prettier **/*.{js,json,yml,md} -l",
+    "format-fix": "prettier **/*.{js,json,yml,md} --write",
     "build": "npm run lint",
     "start": "npm run serve",
     "serve": "node index.js",
